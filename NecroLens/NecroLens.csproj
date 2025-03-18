@@ -19,6 +19,10 @@
         <EnableWindowsTargeting>true</EnableWindowsTargeting>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <OutputPath>bin\Release</OutputPath>
+    </PropertyGroup>
+    
     <ItemGroup>
         <None Remove="data\*.json"/>
     </ItemGroup>

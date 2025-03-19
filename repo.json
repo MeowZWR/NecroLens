@@ -7,7 +7,7 @@
     "InternalName": "NecroLens",
     "AssemblyVersion": "1.0.7.14",
     "TestingAssemblyVersion": "1.0.7.14",
-    "RepoUrl": "https://github.com/Jukkales/NecroLens",
+    "RepoUrl": "https://github.com/MeowZWR/NecroLens",
     "ApplicableVersion": "any",
     "Tags": [ "potd", "hoh", "eo", "esp", "radar", "sonar", "deep", "dungeon" ],
     "DalamudApiLevel": 11,

@@ -39,82 +39,82 @@ namespace NecroLens
     enum ServerZoneIpcType : ushort
     {
         // Server Zone
-        PlayerSetup = 0x036D, // updated 7.11
-        UpdateHpMpTp = 0x010E, // updated 7.11
-        UpdateClassInfo = 0x00F8, // updated 7.11
-        PlayerStats = 0x03B9, // updated 7.11
-        ActorControl = 0x01C5, // updated 7.11
-        ActorControlSelf = 0x018B, // updated 7.11
-        ActorControlTarget = 0x038F, // updated 7.11
-        Playtime = 0x03B7, // updated 7.11
-        UpdateSearchInfo = 0x0381, // updated 7.11
-        ExamineSearchInfo = 0x0237, // updated 7.11
-        Examine = 0x033D, // updated 7.11
-        ActorCast = 0x01E1, // updated 7.11
-        CurrencyCrystalInfo = 0x03B3, // updated 7.11
-        InitZone = 0x0247, // updated 7.11
-        WeatherChange = 0x031D, // updated 7.11
-        PlayerSpawn = 0x012A, // updated 7.11
-        ActorSetPos = 0x0112, // updated 7.11
-        PrepareZoning = 0x014D, // updated 7.11
-        ContainerInfo = 0x00F1, // updated 7.11
-        ItemInfo = 0x0380, // updated 7.11
-        PlaceFieldMarker = 0x011B, // updated 7.11
-        PlaceFieldMarkerPreset = 0x0207, // updated 7.11
-        EffectResult = 0x018F, // updated 7.11
-        EventStart = 0x02B5, // updated 7.11
-        EventFinish = 0x01E9, // updated 7.11
-        DesynthResult = 0x0353, // updated 7.11
-        FreeCompanyInfo = 0x01CA, // updated 7.11
-        FreeCompanyDialog = 0x022C, // updated 7.11
-        MarketBoardSearchResult = 0x022F, // updated 7.11
-        MarketBoardItemListingCount = 0x01EC, // updated 7.11
-        MarketBoardItemListingHistory = 0x01A2, // updated 7.11
-        MarketBoardItemListing = 0x0311, // updated 7.11
-        MarketBoardPurchase = 0x0225, // updated 7.11
-        UpdateInventorySlot = 0x03D4, // updated 7.11
-        InventoryActionAck = 0x03E7, // updated 7.11
-        InventoryTransaction = 0x028B, // updated 7.11
-        InventoryTransactionFinish = 0x033E, // updated 7.11
-        ResultDialog = 0x009A, // updated 7.11
-        RetainerInformation = 0x00D4, // updated 7.11
-        NpcSpawn = 0x03A3, // updated 7.11
-        ItemMarketBoardInfo = 0x0104, // updated 7.11
-        ObjectSpawn = 0x0136, // updated 7.11
-        EffectResultBasic = 0x02FA, // updated 7.11
-        Effect = 0x0199, // updated 7.11
-        StatusEffectList = 0x02C9, // updated 7.11
-        StatusEffectList2 = 0x0201, // updated 7.11
-        StatusEffectList3 = 0x0399, // updated 7.11
-        ActorGauge = 0x0350, // updated 7.11
-        CFNotify = 0x013F, // updated 7.11
-        SystemLogMessage = 0x010C, // updated 7.11
-        AirshipTimers = 0x0097, // updated 7.11
-        SubmarineTimers = 0x02BA, // updated 7.11
-        AirshipStatusList = 0x0360, // updated 7.11
-        AirshipStatus = 0x039A, // updated 7.11
-        AirshipExplorationResult = 0x0286, // updated 7.11
-        SubmarineProgressionStatus = 0x0356, // updated 7.11
-        SubmarineStatusList = 0x0368, // updated 7.11
-        SubmarineExplorationResult = 0x016B, // updated 7.11
+        PlayerSetup = 0x03DE, // updated 7.20h
+        UpdateHpMpTp = 0x00A2, // updated 7.20h
+        UpdateClassInfo = 0x0279, // updated 7.20h
+        PlayerStats = 0x0134, // updated 7.20h
+        ActorControl = 0x026F, // updated 7.20h
+        ActorControlSelf = 0x00B2, // updated 7.20h
+        ActorControlTarget = 0x037E, // updated 7.20h
+        Playtime = 0x018A, // updated 7.20h
+        UpdateSearchInfo = 0x0288, // updated 7.20h
+        ExamineSearchInfo = 0x03B0, // updated 7.20h
+        Examine = 0x00A1, // updated 7.20h
+        ActorCast = 0x007B, // updated 7.20h
+        CurrencyCrystalInfo = 0x010D, // updated 7.20h
+        InitZone = 0x027C, // updated 7.20h
+        WeatherChange = 0x0384, // updated 7.20h
+        PlayerSpawn = 0x03A4, // updated 7.20h
+        ActorSetPos = 0x00C5, // updated 7.20h
+        PrepareZoning = 0x00BE, // updated 7.20h
+        ContainerInfo = 0x0193, // updated 7.20h
+        ItemInfo = 0x00C3, // updated 7.20h
+        PlaceFieldMarker = 0x0246, // updated 7.20h
+        PlaceFieldMarkerPreset = 0x01AA, // updated 7.20h
+        EffectResult = 0x01FC, // updated 7.20h
+        EventStart = 0x0262, // updated 7.20h
+        EventFinish = 0x0277, // updated 7.20h
+        DesynthResult = 0x00AF, // updated 7.20h
+        FreeCompanyInfo = 0x0088, // updated 7.20h
+        FreeCompanyDialog = 0x0370, // updated 7.20h
+        MarketBoardSearchResult = 0x032D, // updated 7.20h
+        MarketBoardItemListingCount = 0x01F2, // updated 7.20h
+        MarketBoardItemListingHistory = 0x01A1, // updated 7.20h
+        MarketBoardItemListing = 0x0099, // updated 7.20h
+        MarketBoardPurchase = 0x03D7, // updated 7.20h
+        UpdateInventorySlot = 0x017B, // updated 7.20h
+        InventoryActionAck = 0x039F, // updated 7.20h
+        InventoryTransaction = 0x01F6, // updated 7.20h
+        InventoryTransactionFinish = 0x01DF, // updated 7.20h
+        ResultDialog = 0x0185, // updated 7.20h
+        RetainerInformation = 0x0362, // updated 7.20h
+        NpcSpawn = 0x035C, // updated 7.20h
+        ItemMarketBoardInfo = 0x0294, // updated 7.20h
+        ObjectSpawn = 0x00A6, // updated 7.20h
+        EffectResultBasic = 0x027D, // updated 7.20h
+        Effect = 0x01BF, // updated 7.20h
+        StatusEffectList = 0x01A8, // updated 7.20h
+        StatusEffectList2 = 0x0285, // updated 7.20h
+        StatusEffectList3 = 0x03C2, // updated 7.20h
+        ActorGauge = 0x01C9, // updated 7.20h
+        CFNotify = 0x00A9, // updated 7.20h
+        SystemLogMessage = 0x0382, // updated 7.20h
+        AirshipTimers = 0x00CE, // updated 7.20h
+        SubmarineTimers = 0x01E9, // updated 7.20h
+        AirshipStatusList = 0x01AF, // updated 7.20h
+        AirshipStatus = 0x016A, // updated 7.20h
+        AirshipExplorationResult = 0x034D, // updated 7.20h
+        SubmarineProgressionStatus = 0x03C3, // updated 7.20h
+        SubmarineStatusList = 0x0065, // updated 7.20h
+        SubmarineExplorationResult = 0x02F5, // updated 7.20h
 
-        CraftingLog = 0x00A6, // updated 7.11
-        GatheringLog = 0x0284, // updated 7.11
+        CraftingLog = 0x0121, // updated 7.20h
+        GatheringLog = 0x01D2, // updated 7.20h
 
-        ActorMove = 0x02E7, // updated 7.11
+        ActorMove = 0x0191, // updated 7.20h
 
-        EventPlay = 0x0206, // updated 7.11
-        EventPlay4 = 0x039D, // updated 7.11
-        EventPlay8 = 0x036F, // updated 7.11
-        EventPlay16 = 0x0301, // updated 7.11
-        EventPlay32 = 0x00FA, // updated 7.11
-        EventPlay64 = 0x02C7, // updated 7.11
-        EventPlay128 = 0x01DA, // updated 7.11
-        EventPlay255 = 0x0159, // updated 7.11
+        EventPlay = 0x0093, // updated 7.20h
+        EventPlay4 = 0x0137, // updated 7.20h
+        EventPlay8 = 0x01A6, // updated 7.20h
+        EventPlay16 = 0x02C7, // updated 7.20h
+        EventPlay32 = 0x0236, // updated 7.20h
+        EventPlay64 = 0x0342, // updated 7.20h
+        EventPlay128 = 0x017E, // updated 7.20h
+        EventPlay255 = 0x03E5, // updated 7.20h
 
-        EnvironmentControl = 0x014C, // updated 7.11
-        IslandWorkshopSupplyDemand = 0x02FF, // updated 7.11
-        Logout = 0x0304, // updated 7.11
+        EnvironmentControl = 0x029E, // updated 7.20h
+        IslandWorkshopSupplyDemand = 0x00F1, // updated 7.20h
+        Logout = 0x0128, // updated 7.20h
     };
 
     /**
@@ -122,11 +122,11 @@ namespace NecroLens
     */
     enum ClientZoneIpcType : ushort
     {
-        UpdatePositionHandler = 0x02A8, // updated 7.11
+        UpdatePositionHandler = 0x02A3, // updated 7.20h
         //ClientTrigger = 0x0324, // updated 7.0h
-        SetSearchInfoHandler = 0x0320, // updated 7.11
-        MarketBoardPurchaseHandler = 0x03D5, // updated 7.11
-        InventoryModifyHandler = 0x00E3, // updated 7.11
+        SetSearchInfoHandler = 0x0195, // updated 7.20h
+        MarketBoardPurchaseHandler = 0x02B5, // updated 7.20h
+        InventoryModifyHandler = 0x0234, // updated 7.20h
         //UpdatePositionInstance = 0x03CE, // updated 7.0h
     };
 

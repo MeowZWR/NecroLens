@@ -39,82 +39,82 @@ namespace NecroLens
     enum ServerZoneIpcType : ushort
     {
         // Server Zone
-        PlayerSetup = 0x031D, // updated 7.25h
-        UpdateHpMpTp = 0x0242, // updated 7.25h
-        UpdateClassInfo = 0x0256, // updated 7.25h
-        PlayerStats = 0x035D, // updated 7.25h
-        ActorControl = 0x028C, // updated 7.25h
-        ActorControlSelf = 0x0272, // updated 7.25h
-        ActorControlTarget = 0x0208, // updated 7.25h
-        Playtime = 0x02C1, // updated 7.25h
-        UpdateSearchInfo = 0x03B9, // updated 7.25h
-        ExamineSearchInfo = 0x0147, // updated 7.25h
-        Examine = 0x0083, // updated 7.25h
-        ActorCast = 0x0214, // updated 7.25h
-        CurrencyCrystalInfo = 0x0085, // updated 7.25h
-        InitZone = 0x00CE, // updated 7.25h
-        WeatherChange = 0x0353, // updated 7.25h
-        PlayerSpawn = 0x0266, // updated 7.25h
-        ActorSetPos = 0x0128, // updated 7.25h
-        PrepareZoning = 0x02E9, // updated 7.25h
-        ContainerInfo = 0x02AE, // updated 7.25h
-        ItemInfo = 0x01F3, // updated 7.25h
-        PlaceFieldMarker = 0x025D, // updated 7.25h
-        PlaceFieldMarkerPreset = 0x0245, // updated 7.25h
-        EffectResult = 0x015B, // updated 7.25h
-        EventStart = 0x03A2, // updated 7.25h
-        EventFinish = 0x01A4, // updated 7.25h
-        DesynthResult = 0x01C7, // updated 7.25h
-        FreeCompanyInfo = 0x02D9, // updated 7.25h
-        FreeCompanyDialog = 0x01B9, // updated 7.25h
-        MarketBoardSearchResult = 0x0159, // updated 7.25h
-        MarketBoardItemListingCount = 0x0268, // updated 7.25h
-        MarketBoardItemListingHistory = 0x0297, // updated 7.25h
-        MarketBoardItemListing = 0x0241, // updated 7.25h
-        MarketBoardPurchase = 0x023B, // updated 7.25h
-        UpdateInventorySlot = 0x025E, // updated 7.25h
-        InventoryActionAck = 0x02A5, // updated 7.25h
-        InventoryTransaction = 0x02D1, // updated 7.25h
-        InventoryTransactionFinish = 0x02D3, // updated 7.25h
-        ResultDialog = 0x03C3, // updated 7.25h
-        RetainerInformation = 0x0084, // updated 7.25h
-        NpcSpawn = 0x03BF, // updated 7.25h
-        ItemMarketBoardInfo = 0x02F3, // updated 7.25h
-        ObjectSpawn = 0x0279, // updated 7.25h
-        EffectResultBasic = 0x02BF, // updated 7.25h
-        Effect = 0x01E1, // updated 7.25h
-        StatusEffectList = 0x0086, // updated 7.25h
-        StatusEffectList2 = 0x008C, // updated 7.25h
-        StatusEffectList3 = 0x024B, // updated 7.25h
-        ActorGauge = 0x0310, // updated 7.25h
-        CFNotify = 0x03BE, // updated 7.25h
-        SystemLogMessage = 0x0106, // updated 7.25h
-        AirshipTimers = 0x0255, // updated 7.25h
-        SubmarineTimers = 0x0201, // updated 7.25h
-        AirshipStatusList = 0x0309, // updated 7.25h
-        AirshipStatus = 0x02C8, // updated 7.25h
-        AirshipExplorationResult = 0x03BD, // updated 7.25h
-        SubmarineProgressionStatus = 0x02B6, // updated 7.25h
-        SubmarineStatusList = 0x00B4, // updated 7.25h
-        SubmarineExplorationResult = 0x019F, // updated 7.25h
+        PlayerSetup = 0x0077, // updated 7.25h3
+        UpdateHpMpTp = 0x02B7, // updated 7.25h3
+        UpdateClassInfo = 0x0295, // updated 7.25h3
+        PlayerStats = 0x013A, // updated 7.25h3
+        ActorControl = 0x03E7, // updated 7.25h3
+        ActorControlSelf = 0x016F, // updated 7.25h3
+        ActorControlTarget = 0x018D, // updated 7.25h3
+        Playtime = 0x01D0, // updated 7.25h3
+        UpdateSearchInfo = 0x019F, // updated 7.25h3
+        ExamineSearchInfo = 0x0370, // updated 7.25h3
+        Examine = 0x00D0, // updated 7.25h3
+        ActorCast = 0x0113, // updated 7.25h3
+        CurrencyCrystalInfo = 0x0289, // updated 7.25h3
+        InitZone = 0x0332, // updated 7.25h3
+        WeatherChange = 0x0347, // updated 7.25h3
+        PlayerSpawn = 0x01D5, // updated 7.25h3
+        ActorSetPos = 0x0149, // updated 7.25h3
+        PrepareZoning = 0x02FC, // updated 7.25h3
+        ContainerInfo = 0x0189, // updated 7.25h3
+        ItemInfo = 0x01E7, // updated 7.25h3
+        PlaceFieldMarker = 0x022D, // updated 7.25h3
+        PlaceFieldMarkerPreset = 0x0365, // updated 7.25h3
+        EffectResult = 0x01AF, // updated 7.25h3
+        EventStart = 0x01C7, // updated 7.25h3
+        EventFinish = 0x00A6, // updated 7.25h3
+        DesynthResult = 0x0275, // updated 7.25h3
+        FreeCompanyInfo = 0x037C, // updated 7.25h3
+        FreeCompanyDialog = 0x00BC, // updated 7.25h3
+        MarketBoardSearchResult = 0x01ED, // updated 7.25h3
+        MarketBoardItemListingCount = 0x039F, // updated 7.25h3
+        MarketBoardItemListingHistory = 0x03C1, // updated 7.25h3
+        MarketBoardItemListing = 0x00AC, // updated 7.25h3
+        MarketBoardPurchase = 0x01B9, // updated 7.25h3
+        UpdateInventorySlot = 0x01B3, // updated 7.25h3
+        InventoryActionAck = 0x024D, // updated 7.25h3
+        InventoryTransaction = 0x0353, // updated 7.25h3
+        InventoryTransactionFinish = 0x0356, // updated 7.25h3
+        ResultDialog = 0x02BD, // updated 7.25h3
+        RetainerInformation = 0x01D1, // updated 7.25h3
+        NpcSpawn = 0x0099, // updated 7.25h3
+        ItemMarketBoardInfo = 0x006B, // updated 7.25h3
+        ObjectSpawn = 0x01A9, // updated 7.25h3
+        EffectResultBasic = 0x0081, // updated 7.25h3
+        Effect = 0x0125, // updated 7.25h3
+        StatusEffectList = 0x0209, // updated 7.25h3
+        StatusEffectList2 = 0x023E, // updated 7.25h3
+        StatusEffectList3 = 0x037E, // updated 7.25h3
+        ActorGauge = 0x01A8, // updated 7.25h3
+        CFNotify = 0x02DA, // updated 7.25h3
+        SystemLogMessage = 0x01C8, // updated 7.25h3
+        AirshipTimers = 0x0337, // updated 7.25h3
+        SubmarineTimers = 0x010E, // updated 7.25h3
+        AirshipStatusList = 0x0282, // updated 7.25h3
+        AirshipStatus = 0x0218, // updated 7.25h3
+        AirshipExplorationResult = 0x03E6, // updated 7.25h3
+        SubmarineProgressionStatus = 0x0268, // updated 7.25h3
+        SubmarineStatusList = 0x0157, // updated 7.25h3
+        SubmarineExplorationResult = 0x01FD, // updated 7.25h3
 
-        CraftingLog = 0x01CA, // updated 7.25h
-        GatheringLog = 0x00D4, // updated 7.25h
+        CraftingLog = 0x00D2, // updated 7.25h3
+        GatheringLog = 0x0165, // updated 7.25h3
 
-        ActorMove = 0x00B8, // updated 7.25h
+        ActorMove = 0x02BB, // updated 7.25h3
 
-        EventPlay = 0x0335, // updated 7.25h
-        EventPlay4 = 0x0341, // updated 7.25h
-        EventPlay8 = 0x00F6, // updated 7.25h
-        EventPlay16 = 0x023D, // updated 7.25h
-        EventPlay32 = 0x0307, // updated 7.25h
-        EventPlay64 = 0x013B, // updated 7.25h
-        EventPlay128 = 0x01EB, // updated 7.25h
-        EventPlay255 = 0x03B0, // updated 7.25h
+        EventPlay = 0x0206, // updated 7.25h3
+        EventPlay4 = 0x0161, // updated 7.25h3
+        EventPlay8 = 0x03BE, // updated 7.25h3
+        EventPlay16 = 0x00D7, // updated 7.25h3
+        EventPlay32 = 0x01AC, // updated 7.25h3
+        EventPlay64 = 0x00AB, // updated 7.25h3
+        EventPlay128 = 0x02F5, // updated 7.25h3
+        EventPlay255 = 0x0115, // updated 7.25h3
 
-        EnvironmentControl = 0x01D8, // updated 7.25h
-        IslandWorkshopSupplyDemand = 0x00A4, // updated 7.25h
-        Logout = 0x0145, // updated 7.25h
+        EnvironmentControl = 0x0305, // updated 7.25h3
+        IslandWorkshopSupplyDemand = 0x01A2, // updated 7.25h3
+        Logout = 0x03BD, // updated 7.25h3
     };
 
     /**
@@ -122,11 +122,11 @@ namespace NecroLens
     */
     enum ClientZoneIpcType : ushort
     {
-        UpdatePositionHandler = 0x03AC, // updated 7.25h
+        UpdatePositionHandler = 0x0320, // updated 7.25h3
         //ClientTrigger = 0x0324, // updated 7.0h
-        SetSearchInfoHandler = 0x008E, // updated 7.25h
-        MarketBoardPurchaseHandler = 0x01A1, // updated 7.25h
-        InventoryModifyHandler = 0x01C4, // updated 7.25h
+        SetSearchInfoHandler = 0x02DD, // updated 7.25h3
+        MarketBoardPurchaseHandler = 0x02F2, // updated 7.25h3
+        InventoryModifyHandler = 0x008A, // updated 7.25h3
         //UpdatePositionInstance = 0x03CE, // updated 7.0h
     };
 

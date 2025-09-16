@@ -27,9 +27,9 @@ jobs:
         run: |
           dotnet build --no-restore --configuration Release --nologo
       - name: Archive
-        run: Compress-Archive -Path NecroLens/bin/Release/* -DestinationPath NecroLens.zip
+        run: Compress-Archive -Path NecroLens/bin/x64/Release/* -DestinationPath NecroLens.zip
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
         with:
           path: |
-            ./NecroLens/bin/Release/*
+            ./NecroLens/bin/x64/Release/*

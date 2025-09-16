@@ -30,18 +30,18 @@ jobs:
       - name: write version into jsons
         run: |
           $ver = '${{ github.ref_name }}' -replace '-cn'
-          $path = './NecroLens/bin/Release/NecroLens.json'
+          $path = './NecroLens/bin/x64/Release/NecroLens.json'
           $json = Get-Content -Raw $path | ConvertFrom-Json
           $json.AssemblyVersion = $ver
           $content = $json | ConvertTo-Json
           set-content -Path $path -Value $content
       - name: Archive
-        run: Compress-Archive -Path NecroLens/bin/Release/* -DestinationPath NecroLens.zip
+        run: Compress-Archive -Path NecroLens/bin/x64/Release/* -DestinationPath NecroLens.zip
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
         with:
           path: |
-            ./NecroLens/bin/Release/*
+            ./NecroLens/bin/x64/Release/*
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1

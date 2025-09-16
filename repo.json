@@ -19,8 +19,8 @@
       "deep",
       "dungeon"
     ],
-    "DalamudApiLevel": 12,
-    "TestingDalamudApiLevel": 12,
+    "DalamudApiLevel": 13,
+    "TestingDalamudApiLevel": 13,
     "ImageUrls": [],
     "IsHide": false,
     "IsTestingExclusive": false,

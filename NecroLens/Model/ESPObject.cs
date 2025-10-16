@@ -1,9 +1,10 @@
-﻿using System;
+using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Linq;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
+using Dalamud.Interface;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.Game.Character;
 using NecroLens.Data;
@@ -43,7 +44,8 @@ public class ESPObject
         MimicChest,
         Trap,
         Return,
-        Passage
+        Passage,
+        Votife,
     }
 
     private IClientState clientState;
@@ -75,7 +77,7 @@ public class ESPObject
         // No MobInfo? Must be an other object
         else
         {
-            var dataId = gameObject.DataId;
+            var dataId = gameObject.BaseId;
 
             if (clientState.LocalPlayer != null && clientState.LocalPlayer.EntityId == gameObject.EntityId)
                 Type = ESPType.Player;
@@ -101,6 +103,8 @@ public class ESPObject
                 Type = ESPType.FriendlyEnemy;
             else if (DataIds.MimicIDs.Contains(dataId))
                 Type = ESPType.Mimic;
+            else if (DataIds.VotifesIds.Contains(dataId))
+                Type = ESPType.Votife;
         }
     }
     
@@ -120,7 +124,7 @@ public class ESPObject
      */
     public float AggroDistance()
     {
-        return Type == ESPType.Mimic && DeepDungeonUtil.InPotD ? 14.6f : 10.8f;
+        return GameObject.HitboxRadius + (Type == ESPType.Mimic && DeepDungeonUtil.InPotD ? 14f : 10f);
     }
 
     public ESPAggroType AggroType()
@@ -148,7 +152,7 @@ public class ESPObject
         // heavenly onmitsu exists twice, one partol one not. Only DataId differs
         if (mobInfo != null && mobInfo.Id == 7305)
         {
-            return GameObject.DataId == 8922;
+            return GameObject.BaseId == 8922;
         }
 
         return mobInfo?.Patrol ?? false;
@@ -206,6 +210,8 @@ public class ESPObject
                 return Config.SilverCofferColor;
             case ESPType.BronzeChest:
                 return Config.BronzeCofferColor;
+            case ESPType.Votife:
+                return Config.VotifeColor;
             default:
                 return Color.White.ToUint();
         }
@@ -243,6 +249,7 @@ public class ESPObject
             ESPType.Return => "\uE03B",
             ESPType.Passage => "\uE035",
             ESPType.FriendlyEnemy => "\uE034",
+            ESPType.Votife => "\uE03B",
             _ => null
         };
     }
@@ -263,7 +270,7 @@ public class ESPObject
 
         name += Type switch
         {
-            ESPType.Trap => DataIds.TrapIDs.TryGetValue(GameObject.DataId, out var value)
+            ESPType.Trap => DataIds.TrapIDs.TryGetValue(GameObject.BaseId, out var value)
                                 ? value
                                 : Strings.Traps_Unknown,
             ESPType.AccursedHoard => Strings.Chest_Accursed_Hoard,
@@ -283,7 +290,7 @@ public class ESPObject
 
         if (Config.ShowDebugInformation)
         {
-            name += "\nD:" + GameObject.DataId;
+            name += "\nD:" + GameObject.BaseId;
             if (GameObject is IBattleNpc npc2) name += " N:" + npc2.NameId;
         }
 

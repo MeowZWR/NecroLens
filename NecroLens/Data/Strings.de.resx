@@ -362,6 +362,19 @@ Wenn du dich neben einer Kiste nicht mehr bewegen kannst, deaktiviere diese Opti
   <data name="ConfigWindow_Tab_Extras" xml:space="preserve">
     <value>Extras</value>
   </data>
+  <data name="ConfigWindow_DataCollection_OptIn" xml:space="preserve">
+      <value>Datensammlung aktivieren</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_Description" xml:space="preserve">
+      <value>Helfen Sie mir, NecroLens zu verbessern, indem Sie die Datensammlung aktivieren.
+Dies sendet Informationen über jeden Feind und andere Objekte anonym an meinen Server.
+Es enthält nur Feind- und Objekt-IDs und Namen pro Etage und eine 'Gruppen-ID' zur Trennung.
+
+Es werden absolut keine Informationen gesammelt, die mit Spielern oder Konten verknüpft sind.</value>
+  </data>
+  <data name="ConfigWindow_LocalizationHelp" xml:space="preserve">
+      <value>Möchten Sie bei der Lokalisierung helfen?</value>
+  </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation" xml:space="preserve">
     <value>Zeige Debug-Informationen</value>
   </data>
@@ -395,7 +408,7 @@ Es hilft mir, Probleme schneller zu identifizieren.</value>
       <value>Koreanisch</value>
   </data>
   <data name="ConfigWindow_Language_zh" xml:space="preserve">
-      <value>Chinesisch</value>
+      <value>中文</value>
   </data>
   <data name="ConfigWindow_Language_default" xml:space="preserve">
       <value>Client-Sprache</value>

@@ -362,6 +362,19 @@ If you're stuck near a chest and cant move anymore disable this option!</value>
   <data name="ConfigWindow_Tab_Extras" xml:space="preserve">
     <value>Extras</value>
   </data>
+  <data name="ConfigWindow_DataCollection_OptIn" xml:space="preserve">
+      <value>Collecte de données volontaire</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_Description" xml:space="preserve">
+      <value>Aidez-moi à améliorer NecroLens en activant la collecte de données.
+Cela enverra des informations sur chaque ennemi et d'autres objets de manière anonyme à mon serveur.
+Cela ne contient que les ID et noms d'ennemis et d'objets par étage et un 'ID de groupe' pour la séparation.
+
+Aucune information liée aux joueurs ou aux comptes ne sera collectée.</value>
+  </data>
+  <data name="ConfigWindow_LocalizationHelp" xml:space="preserve">
+      <value>Voulez-vous aider avec la localisation ?</value>
+  </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation" xml:space="preserve">
     <value>Show Debug Information</value>
   </data>
@@ -389,7 +402,7 @@ It helps me to identify problems faster.</value>
       <value>Japonais</value>
   </data>
   <data name="ConfigWindow_Language_zh" xml:space="preserve">
-      <value>Chinois</value>
+      <value>中文</value>
   </data>
   <data name="ConfigWindow_Language_ko" xml:space="preserve">
       <value>Coréen</value>

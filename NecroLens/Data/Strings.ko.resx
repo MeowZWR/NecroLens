@@ -360,6 +360,19 @@ ESP 설정에서 표시하고 싶은 것을 임의로 설정할 수 있습니다
   <data name="ConfigWindow_Tab_Extras" xml:space="preserve">
     <value>기타</value>
   </data>
+  <data name="ConfigWindow_DataCollection_OptIn" xml:space="preserve">
+      <value>데이터 수집 참여</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_Description" xml:space="preserve">
+      <value>데이터 수집을 활성화하여 NecroLens 개선에 도움을 주세요.
+이것은 모든 적과 기타 객체에 대한 정보를 익명으로 서버에 전송합니다.
+각 층의 적과 객체 ID 및 이름, 그리고 분리를 위한 '파티 ID'만 포함됩니다.
+
+플레이어나 계정과 연결된 정보는 절대 수집되지 않습니다.</value>
+  </data>
+  <data name="ConfigWindow_LocalizationHelp" xml:space="preserve">
+      <value>현지화에 도움을 주시겠습니까?</value>
+  </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation" xml:space="preserve">
     <value>디버그 정보 보기</value>
   </data>
@@ -393,7 +406,7 @@ ESP 설정에서 표시하고 싶은 것을 임의로 설정할 수 있습니다
       <value>한국어</value>
   </data>
   <data name="ConfigWindow_Language_zh" xml:space="preserve">
-      <value>중국어</value>
+      <value>中文</value>
   </data>
   <data name="ConfigWindow_Language_default" xml:space="preserve">
       <value>클라이언트 언어</value>

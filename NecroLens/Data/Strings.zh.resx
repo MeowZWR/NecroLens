@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ConfigWindow_Tab_General" xml:space="preserve">
-    <value>General</value>
+    <value>通用</value>
   </data>
   <data name="ConfigWindow_Tab_ESPSettings" xml:space="preserve">
     <value>ESP 设置</value>
@@ -354,50 +354,63 @@
     <value>陷阱</value>
   </data>
   <data name="PluginCommands_OpenChest_Help" xml:space="preserve">
-    <value>Try top open a Chest near to you.</value>
+    <value>试着打开你附近的宝箱。</value>
   </data>
   <data name="MainWindow_OpenChestButton_Help" xml:space="preserve">
-    <value>Try to open the nearest chest to you.</value>
+    <value>试着打开离你最近的宝箱。</value>
   </data>
   <data name="ConfigWindow_Tab_Extras" xml:space="preserve">
-    <value>Extras</value>
+    <value>其他</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_OptIn" xml:space="preserve">
+    <value>选择加入数据收集</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_Description" xml:space="preserve">
+    <value>通过启用数据收集来帮助我改进 NecroLens。
+这将匿名向我的服务器发送有关每个敌人和其他一些对象的信息。
+它仅包含每层的敌人和对象ID和名称，以及用于分离的"队伍ID"。
+
+绝对不会收集任何与玩家或账户相关的信息。</value>
+  </data>
+  <data name="ConfigWindow_LocalizationHelp" xml:space="preserve">
+    <value>想要帮助本地化？</value>
   </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation" xml:space="preserve">
-    <value>Show Debug Information</value>
+    <value>显示调试信息</value>
   </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation_Details" xml:space="preserve">
-    <value>Show the ID for elements. 
-Please turn this on before you submit a bug report. 
-It helps me to identify problems faster.</value>
+    <value>显示元素的ID
+请在提交错误报告之前打开此功能。
+它帮助我更快地发现问题。</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightObjects_Votife" xml:space="preserve">
-    <value>Vestige</value>
+    <value>遗迹</value>
   </data>
   <data name="Traps_Fae_Trap" xml:space="preserve">
-    <value>Fae Trap</value>
+    <value>妖精陷阱</value>
   </data>
   <data name="ConfigWindow_Language" xml:space="preserve">
-      <value>语言:</value>
+    <value>语言：</value>
   </data>
   <data name="ConfigWindow_Language_en" xml:space="preserve">
-      <value>英语</value>
+    <value>英语</value>
   </data>
   <data name="ConfigWindow_Language_de" xml:space="preserve">
-      <value>德语</value>
+    <value>德语</value>
   </data>
   <data name="ConfigWindow_Language_fr" xml:space="preserve">
-      <value>法语</value>
+    <value>法语</value>
   </data>
   <data name="ConfigWindow_Language_ja" xml:space="preserve">
-      <value>日语</value>
+    <value>日语</value>
   </data>
   <data name="ConfigWindow_Language_ko" xml:space="preserve">
-      <value>韩语</value>
+    <value>韩语</value>
   </data>
   <data name="ConfigWindow_Language_zh" xml:space="preserve">
-      <value>中文</value>
+    <value>中文</value>
   </data>
   <data name="ConfigWindow_Language_default" xml:space="preserve">
-      <value>客户端语言</value>
+    <value>客户端语言</value>
   </data>
 </root>

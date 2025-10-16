@@ -67,6 +67,7 @@ public sealed class NecroLens : IDalamudPlugin
                 ClientLanguage.French => CultureInfo.GetCultureInfo("fr"),
                 ClientLanguage.German => CultureInfo.GetCultureInfo("de"),
                 ClientLanguage.Japanese => CultureInfo.GetCultureInfo("ja"),
+                ClientLanguage.ChineseSimplified => CultureInfo.GetCultureInfo("zh"),
                 _ => CultureInfo.GetCultureInfo("en")
             };
         }

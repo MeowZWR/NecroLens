@@ -118,286 +118,299 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ConfigWindow_Tab_General" xml:space="preserve">
-    <value>通用</value>
+    <value>General</value>
   </data>
   <data name="ConfigWindow_Tab_ESPSettings" xml:space="preserve">
-    <value>ESP 设置</value>
+    <value>ESP Settings</value>
   </data>
   <data name="ConfigWindow_Tab_Chests" xml:space="preserve">
-    <value>宝箱</value>
+    <value>Chests</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenChests" xml:space="preserve">
-    <value>开启宝箱</value>
+    <value>Open Chests</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenChests_Details" xml:space="preserve">
-    <value>当你位于宝箱的互动范围内，插件将尝试自动为你开启一次宝箱！</value>
+    <value>Automatically opens chest for you once you're in interaction range.
+The plugin only tries to open a chest one time!</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenFollowingChests" xml:space="preserve">
-    <value>开启以下宝箱：</value>
+    <value>Open the following chests:</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenFollowingChests_Bronze" xml:space="preserve">
-    <value>铜宝箱</value>
+    <value>Bronze</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenFollowingChests_Silver" xml:space="preserve">
-    <value>银宝箱</value>
+    <value>Silver</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenFollowingChests_Gold" xml:space="preserve">
-    <value>金宝箱</value>
+    <value>Gold</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenFollowingChests_Hoards" xml:space="preserve">
-    <value>埋藏的宝藏</value>
+    <value>Hoards</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenUnsafeChests" xml:space="preserve">
-    <value>开启不安全的宝箱</value>
+    <value>Open unsafe chests</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenUnsafeChests_Details" xml:space="preserve">
-    <value>此选项将强制开启当前楼层中可能是拟态怪的宝箱</value>
+    <value>Even open chests which can be Mimics on the current floor</value>
   </data>
   <data name="ConfigWindow_Title" xml:space="preserve">
-    <value>NecroLens 设置</value>
+    <value>NecroLens Configuration</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowPlayerDot" xml:space="preserve">
-    <value>显示玩家判定点</value>
+    <value>Show Player Dot</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowPlayerDot_Details" xml:space="preserve">
-    <value>以一个小点作为你的碰撞体积显示</value>
+    <value>A little dot showing your hit box.</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowAggroRange" xml:space="preserve">
-    <value>显示引战范围</value>
+    <value>Show aggro range</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowAggroRange_Details" xml:space="preserve">
-    <value>绘制怪物的视觉、感应和听觉范围。
-听觉怪物也有碰撞体积。</value>
+    <value>Draw sight-, proximity- and sound-range.
+Sound Mobs will also have hit box.</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowAggroRange_Proximity_and_Sight" xml:space="preserve">
-    <value>感应与视觉范围</value>
+    <value>Proximity and Sight</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowAggroRange_Sound" xml:space="preserve">
-    <value>听觉范围</value>
+    <value>Sound</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowPatrolArrow" xml:space="preserve">
-    <value>显示巡逻怪物箭头</value>
+    <value>Show Arrow on Patrol</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowPatrolArrow_Details" xml:space="preserve">
-    <value>绘制一个指示箭头用于指示巡逻怪物的运动方向。</value>
+    <value>Draw an arrow pointing in movement direction.</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowCofferInteractionRange" xml:space="preserve">
-    <value>显示宝箱的可互动范围</value>
+    <value>Show interaction range for coffers</value>
   </data>
   <data name="ConfigWindow_ESPTab_ShowCofferInteractionRange_Details" xml:space="preserve">
-    <value>当你接近宝箱时，绘制一个光圈来显示你能开启宝箱的最大距离。</value>
+    <value>Once you approach a treasure coffer a light circle shows up the maximum distance to open.</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightObjects" xml:space="preserve">
-    <value>玩家接近时高亮以下对象：</value>
+    <value>Highlight the following objects once near:</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightObjects_TreasureChests" xml:space="preserve">
-    <value>宝箱</value>
+    <value>Treasure Chests</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightObjects_Passage" xml:space="preserve">
-    <value>传送装置</value>
+    <value>Passage</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightTreasureChests" xml:space="preserve">
-    <value>在叠加层中显示以下宝箱：</value>
+    <value>Show the following treasure coffers in the overlay:</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightTreasureChests_Bronze" xml:space="preserve">
-    <value>铜宝箱</value>
+    <value>Bronze Chests</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightTreasureChests_Silver" xml:space="preserve">
-    <value>银宝箱</value>
+    <value>Silver Chests</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightTreasureChests_Gold" xml:space="preserve">
-    <value>金宝箱</value>
+    <value>Gold Chests</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightTreasureChests_Hoards" xml:space="preserve">
-    <value>埋藏的宝藏</value>
+    <value>Accursed Hoards</value>
   </data>
   <data name="ConfigWindow_GeneralTab_AutomaticallyOpen" xml:space="preserve">
-    <value>深层迷宫内自动开启主窗口</value>
+    <value>Automatically open in DeepDungeon</value>
   </data>
   <data name="ConfigWindow_GeneralTab_AutomaticallyOpen_Details" xml:space="preserve">
-    <value>当你进入深层迷宫时开启插件主窗口。
-此窗口可为你显示一些便捷信息，帮助你快速访问插件设置。</value>
+    <value>Opens the Main window when you enter a DeepDungeon.
+It shows some handy information and quick access to Settings.</value>
   </data>
   <data name="ConfigWindow_GeneralTab_EnableOverlay" xml:space="preserve">
-    <value>启用 ESP 叠加层</value>
+    <value>Enable ESP Overlay</value>
   </data>
   <data name="ConfigWindow_ChestsTab_OpenChests_EXPERIMENTAL" xml:space="preserve">
-    <value>实验性功能</value>
+    <value>EXPERIMENTAL</value>
   </data>
   <data name="ConfigWindow_GeneralTab_EnableOverlay_Details" xml:space="preserve">
-    <value>绘制 ESP 叠加层，此功能将显示宝箱、怪物以及它们的引战范围。
-你可以在 "ESP 设置" 板块中配置你希望看到的全部内容。
-注意: ESP 只能显示游戏渲染距离内的对象。
-这是固定且不可更改的！</value>
+    <value>Draws the ESP overlay showing the positions of Chests, Mobs and all aggro ranges.
+You can configure everything you want to see under ESP Settings.
+Important: The ESP can only show objects in the games render distance.
+This is fixed and CAN NOT be changed!</value>
   </data>
   <data name="ConfigWindow_GeneralTab_OpenChests" xml:space="preserve">
-    <value>启用 开启宝箱</value>
+    <value>Enable OpenChests</value>
   </data>
   <data name="ConfigWindow_GeneralTab_OpenChests_Details" xml:space="preserve">
-    <value>实验性功能
-当你位于宝箱的互动范围内，将自动开启宝箱。
-默认情况下，此功能不会开启可能是拟态怪的宝箱！
+    <value>EXPERIMENTAL FEATURE
+Automatically opens chest for you once you're in interaction range.
+By default it will NOT open chests which can be Mimics this set!
 
-此功能可能会导致你被卡在宝箱旁边！
-如果发生这种情况，请禁用此功能。
-</value>
+This feature can cause your character being stuck next to a chest!
+If this happens disable this feature.</value>
   </data>
   <data name="PluginCommands_OpenOverlay_Help" xml:space="preserve">
-    <value>开启 插件主窗口</value>
+    <value>Opens the main window.</value>
   </data>
   <data name="PluginCommands_OpenConfig_Help" xml:space="preserve">
-    <value>开启 插件设置窗口</value>
+    <value>Opens the configuration.</value>
   </data>
   <data name="MainWindow_TrapStatus_Title" xml:space="preserve">
-    <value>陷阱：</value>
+    <value>Traps:</value>
   </data>
   <data name="MainWindow_TrapStatus_Active" xml:space="preserve">
-    <value>活跃状态</value>
+    <value>Active</value>
   </data>
   <data name="MainWindow_TrapStatus_Visible" xml:space="preserve">
-    <value>可见状态</value>
+    <value>Visible</value>
   </data>
   <data name="MainWindow_TrapStatus_Inactive" xml:space="preserve">
-    <value>安全状态</value>
+    <value>Inactive</value>
   </data>
   <data name="MainWindow_PassageStatus_Title" xml:space="preserve">
-    <value>传送装置：</value>
+    <value>Passage:</value>
   </data>
   <data name="MainWindow_PassageStatus_Open" xml:space="preserve">
-    <value>开启</value>
+    <value>Open</value>
   </data>
   <data name="MainWindow_PassageStatus_Closed" xml:space="preserve">
-    <value>关闭</value>
+    <value>Closed</value>
   </data>
   <data name="MainWindow_TimeSet_Title" xml:space="preserve">
-    <value>计时：</value>
+    <value>Times:</value>
   </data>
   <data name="MainWindow_NextFloorMark_ActiveNextFloor" xml:space="preserve">
-    <value>下一层生效</value>
+    <value>Active on next Floor</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Title" xml:space="preserve">
-    <value>本层发动的魔法效果：</value>
+    <value>Current Floor Effects:</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Affluence" xml:space="preserve">
-    <value>宝箱增加</value>
+    <value>Affluence</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Flight" xml:space="preserve">
-    <value>减少敌人</value>
+    <value>Flight</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Alteration" xml:space="preserve">
-    <value>改变敌人</value>
+    <value>Alteration</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Safety" xml:space="preserve">
-    <value>咒印解除</value>
+    <value>Safety</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Sight" xml:space="preserve">
-    <value>全景</value>
+    <value>Sight</value>
   </data>
   <data name="MainWindow_CurrentFloorEffects_Fortune" xml:space="preserve">
-    <value>运气上升</value>
+    <value>Fortune</value>
   </data>
   <data name="MainWindow_Floor" xml:space="preserve">
-    <value>层数： {0}</value>
+    <value>Floor: {0}</value>
   </data>
   <data name="MainWindow_Respawns" xml:space="preserve">
-    <value>怪物重生时间： {0}</value>
+    <value>Respawns: {0}</value>
   </data>
   <data name="MainWindow_ShowAggro" xml:space="preserve">
-    <value>显示引战范围</value>
+    <value>Show Aggro</value>
   </data>
   <data name="MainWindow_OpenChests" xml:space="preserve">
-    <value>开启宝箱</value>
+    <value>Open Chests</value>
   </data>
   <data name="MainWindow_OpenChests_Help" xml:space="preserve">
-    <value>根据你的设置切换是否自动开启宝箱。
+    <value>Toggle Open Chests respecting your settings.
 
-重要提醒：
-如果你被卡在一个宝箱附近无法移动，请禁用此选项！</value>
+IMPORTANT:
+If you're stuck near a chest and cant move anymore disable this option!</value>
   </data>
   <data name="Traps_Landmine" xml:space="preserve">
-    <value>爆炸陷阱</value>
+    <value>Landmine</value>
   </data>
   <data name="Traps_Luring_Trap" xml:space="preserve">
-    <value>诱饵陷阱</value>
+    <value>Luring Trap</value>
   </data>
   <data name="Traps_Enfeebling_Trap" xml:space="preserve">
-    <value>弱化陷阱</value>
+    <value>Enfeebling Trap</value>
   </data>
   <data name="Traps_Impeding_Trap" xml:space="preserve">
-    <value>妨碍陷阱</value>
+    <value>Impeding Trap</value>
   </data>
   <data name="Traps_Toad_Trap" xml:space="preserve">
-    <value>蛙变陷阱</value>
+    <value>Toad Trap</value>
   </data>
   <data name="Traps_Odder_Trap" xml:space="preserve">
-    <value>獭獭陷阱</value>
+    <value>Odder Trap</value>
   </data>
   <data name="Traps_Owlet_Trap" xml:space="preserve">
-    <value>猫头小鹰陷阱</value>
+    <value>Owlet Trap</value>
   </data>
   <data name="Chest_Accursed_Hoard" xml:space="preserve">
-    <value>埋藏的宝藏</value>
+    <value>Accursed Hoard</value>
   </data>
   <data name="Chest_Bronze_Chest" xml:space="preserve">
-    <value>铜宝箱</value>
+    <value>Bronze Chest</value>
   </data>
   <data name="Chest_Silver_Chest" xml:space="preserve">
-    <value>银宝箱</value>
+    <value>Silver Chest</value>
   </data>
   <data name="Chest_Gold_Chest" xml:space="preserve">
-    <value>金宝箱</value>
+    <value>Gold Chest</value>
   </data>
   <data name="Chest_Mimic" xml:space="preserve">
-    <value>拟态怪</value>
+    <value>Mimic</value>
   </data>
   <data name="Traps_Unknown" xml:space="preserve">
-    <value>陷阱</value>
+    <value>Trap</value>
   </data>
   <data name="PluginCommands_OpenChest_Help" xml:space="preserve">
-    <value>试着打开你附近的宝箱。</value>
+    <value>Try top open a Chest near to you.</value>
   </data>
   <data name="MainWindow_OpenChestButton_Help" xml:space="preserve">
-    <value>试着打开离你最近的宝箱。</value>
+    <value>Try to open the nearest chest to you.</value>
   </data>
   <data name="ConfigWindow_Tab_Extras" xml:space="preserve">
-    <value>其他</value>
+    <value>Extras</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_OptIn" xml:space="preserve">
+      <value>Opt-In Data Collection</value>
+  </data>
+  <data name="ConfigWindow_DataCollection_Description" xml:space="preserve">
+      <value>Help me improve NecroLens by enabling data collection.
+This will send information about every enemy and some other objects anonymously to my server.
+It contains only enemy and object id's and names per floor and a 'party-id' for separation.
+
+Absolutely no information linking to any players or accounts will be collected.</value>
+  </data>
+  <data name="ConfigWindow_LocalizationHelp" xml:space="preserve">
+      <value>Want to help with localization?</value>
   </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation" xml:space="preserve">
-    <value>显示调试信息</value>
+    <value>Show Debug Information</value>
   </data>
   <data name="ConfigWindow_ExtrasTab_ShowDebugInformation_Details" xml:space="preserve">
-    <value>显示元素的ID
-请在提交错误报告之前打开此功能。
-它帮助我更快地发现问题。</value>
+    <value>Show the ID for elements. 
+Please turn this on before you submit a bug report. 
+It helps me to identify problems faster.</value>
   </data>
   <data name="ConfigWindow_ESPTab_HighlightObjects_Votife" xml:space="preserve">
-    <value>遗迹</value>
+    <value>Vestige</value>
   </data>
   <data name="Traps_Fae_Trap" xml:space="preserve">
-    <value>妖精陷阱</value>
+    <value>Fae Trap</value>
   </data>
   <data name="ConfigWindow_Language" xml:space="preserve">
-    <value>语言：</value>
+      <value>Language:</value>
   </data>
   <data name="ConfigWindow_Language_en" xml:space="preserve">
-    <value>英语</value>
+      <value>English</value>
   </data>
   <data name="ConfigWindow_Language_de" xml:space="preserve">
-    <value>德语</value>
+      <value>German</value>
   </data>
   <data name="ConfigWindow_Language_fr" xml:space="preserve">
-    <value>法语</value>
+      <value>French</value>
   </data>
   <data name="ConfigWindow_Language_ja" xml:space="preserve">
-    <value>日语</value>
+      <value>Japanese</value>
   </data>
   <data name="ConfigWindow_Language_ko" xml:space="preserve">
-    <value>韩语</value>
+      <value>Korean</value>
   </data>
   <data name="ConfigWindow_Language_zh" xml:space="preserve">
-    <value>中文</value>
+      <value>中文</value>
   </data>
   <data name="ConfigWindow_Language_default" xml:space="preserve">
-    <value>客户端语言</value>
+      <value>Client-Language</value>
   </data>
 </root>

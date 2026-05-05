@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Dalamud.NET.Sdk/14.0.1">
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
     <PropertyGroup>
         <Authors>Jukka</Authors>
-        <Version>0.0.0.0</Version>
+        <Version>1.0.8.12</Version>
         <Description>NecroLens Dalamud Plugin</Description>
         <PackageProjectUrl>https://github.com/Jukkales/NecroLens</PackageProjectUrl>
     </PropertyGroup>
